@@ -5,6 +5,7 @@ import path from "path";
 import { image } from "image-downloader";
 import urls from "./urls.json" assert { type: "json" };
 
+const delayBetweenRequests = 1000;
 const selector = ".sidebar > img";
 const folderPath = "./downloaded-images";
 
@@ -31,7 +32,7 @@ async function downloadImage(url, folderPath, selector) {
       const imageExtension = imageUrl.split(".").pop().split("?")[0];
       const filename = `${safeTitle}.${imageExtension}`;
 
-      await delay(1000);
+      await delay(delayBetweenRequests);
 
       const options = {
         url: imageUrl.startsWith("http")
