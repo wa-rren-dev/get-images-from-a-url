@@ -17,6 +17,7 @@
     "cheerio": "^1.0.0-rc.12",
     "fs-extra": "^11.2.0",
     "image-downloader": "^4.3.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "puppeteer": "^22.9.0"
   }
 }
