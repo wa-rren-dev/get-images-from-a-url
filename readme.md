@@ -1,1 +1,1 @@
-# Get images from URLs
+# Get <strike>images</strike> <i>stuff</i> from URLs
